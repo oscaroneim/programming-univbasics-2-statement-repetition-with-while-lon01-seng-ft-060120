@@ -1,8 +1,8 @@
 count = 10 
 
-while count > 0 do
+count_down = 0 
+
+while count > 0 && count != count_down do
   puts "#{count}"
   count -= 1 
-  break
-  puts "Happy New Year"
 end
